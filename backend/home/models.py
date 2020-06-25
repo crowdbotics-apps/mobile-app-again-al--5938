@@ -39,3 +39,4 @@ class CustomUser(models.Model):
     age = models.IntegerField()
     birth_date = models.DateField()
     is_married = models.BooleanField()
+    has_car = models.BooleanField(null=True, blank=True,)
